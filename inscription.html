@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" type="text/css" href="css/style.css">
-    <title>Colors Inscription</title>
-</head>
-<body>
-    <div class = "container">
-        <form>
-            <p>Creer votre compte </p>
-            <input type ="text" placeholder="Pseudo"><br>
-            <input type ="Email" placeholder="Email"><br>
-            <input type ="Email" placeholder="Confirmation Email"><br>
-            <input type="Password" placeholder="Password" id="pass"><br>
-            <input type="button" value ="Creation du compte"><br>
-        </form>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type="text/css" href="css/style.css">
+        <title>Colors Inscription</title>
+    </head>
+    <body>
+        <div class = "container">
+            <form>
+                <p>Creer votre compte </p>
+                <input type ="text" placeholder="Pseudo" pattern required ="0-6" maxlength="20"><br>
+                <input type ="Email" placeholder="Email" pattern required ="@"><br>
+                <input type ="Email" placeholder="Confirmation Email"pattern required = "@"><br>
+                <input type="Password" placeholder="Password" id="pass"><br>
+                
+                <p><button>Creation du compte</button></p>
+                
+                <p1>En vous inscrivant, vous acceptez nos <a href="condition générales" >Conditions générales. </a>
+                    Découvrez comment nous collectons,<br> utilisons et partageons vos données en lisant 
+                    notre <a href="pol-confi" > politique de confidentialité </a> et comment nous utilisons les cookies 
+                    <br> autres technologies similaires en consultant notre Politique d’utilisation des cookies.</p1>
+            </form>
