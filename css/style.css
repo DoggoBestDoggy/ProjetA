@@ -1,7 +1,6 @@
-
 form {
     margin: 0;
-    padding : 0;
+    padding: 0;
     outline: none;
     background: rgba(219, 2, 2, 0.2);
     padding: 3rem;
@@ -12,7 +11,7 @@ form {
 }
 
 body {
-    background: linear-gradient(45deg,#FC4400,#0005fe);
+    background: linear-gradient(45deg, #fc0061, #0005fe);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,25 +19,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input{
+input {
     width: 50%;
-    padding: 10px ;
+    padding: 10px;
     border: none;
     border-bottom: 2px solid #333;
-    margin : 10px 0;
+    margin: 10px 0;
     background: transparent;
-    border-color: whitesmoke ;
+    border-color: whitesmoke;
 }
 
 
-label{
+label {
     color: aliceblue;
     opacity: 7;
     font-size: 1.2rem;
 }
 
 
-label1{
+label1 {
     color: aliceblue;
     opacity: 7;
     font-size: 1.2rem;
@@ -49,19 +48,23 @@ label1{
 
 }
 
-p{
+p {
     color: aliceblue;
     opacity: 7;
     font-size: 1.2rem;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 
-p1{
+p1 {
     color: aliceblue;
-    font-size : x-small;
+    font-size: x-small;
 }
 
-p2{
+p2 {
     color: rgb(87, 105, 122);
-    font-size : x-small;
+    font-size: x-small;
+}
+
+p3 {
+    font-family: sans-serif;
 }
